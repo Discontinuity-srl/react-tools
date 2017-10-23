@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "atom": true,
+    "document": true
+  },
+  "plugins": [],
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "no-console": [
+      "warn",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "semi": ["warn", "never"],
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ]
+  }
+}

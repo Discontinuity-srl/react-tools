@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "dsc-react-tools:toggle"
+    "ctrl-alt-cmd-c": "dsc-react-tools:create",
+    "ctrl-alt-cmd-r": "dsc-react-tools:rename"
   }
 }

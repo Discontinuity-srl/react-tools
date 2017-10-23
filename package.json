@@ -1,11 +1,14 @@
 {
   "name": "dsc-react-tools",
   "main": "./lib/dsc-react-tools",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tools to work with react",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["dsc-react-tools:create", "dsc-react-tools:rename"]
+    "atom-workspace": [
+      "dsc-react-tools:create",
+      "dsc-react-tools:rename"
+    ]
   },
   "consumedServices": {
     "tree-view": {

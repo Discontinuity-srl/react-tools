@@ -28,7 +28,6 @@
     "glob": "^7.1.2",
     "mkdirp": "^0.5.1",
     "mv": "^2.1.1",
-    "strip-indent": "^2.0.0",
     "to-pascal-case": "^1.0.0",
     "util-promisify": "^2.1.0"
   },

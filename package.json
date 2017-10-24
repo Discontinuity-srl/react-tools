@@ -1,7 +1,7 @@
 {
   "name": "dsc-react-tools",
   "main": "./lib/dsc-react-tools",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Tools to work with react",
   "keywords": [],
   "activationCommands": {

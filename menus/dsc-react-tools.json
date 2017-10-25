@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle dsc-react-tools",
-        "command": "dsc-react-tools:toggle"
+        "label": "dsc-react-tools Rename",
+        "command": "dsc-react-tools:rename"
       }
     ]
   },
@@ -15,8 +15,12 @@
           "label": "dsc-react-tools",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "dsc-react-tools:toggle"
+              "label": "Create",
+              "command": "dsc-react-tools:create"
+            },
+            {
+              "label": "Rename",
+              "command": "dsc-react-tools:rename"
             }
           ]
         }
